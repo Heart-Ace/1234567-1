@@ -3,7 +3,7 @@ name: jk
 on:
   workflow_dispatch:
   schedule:
-     - cron: '10 6-22 * * *'
+     - cron: '10 0-16,22-23 * * *'
   watch:
     types: started
 jobs:
